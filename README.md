@@ -4,7 +4,7 @@
 Terraform code for AWS infrastructure.
 
 ## Structure  # updated readme file
-
+..........
 ├── bootstrap/ # S3 state, DynamoDB lock, KMS 
 ├── modules/ │ 
 ├── vpc/ # VPC, subnets, NAT 
@@ -13,7 +13,7 @@ Terraform code for AWS infrastructure.
 │ ├── dev/ # Dev environment 
 │ └── prod/ # Prod environment 
 └── .github/workflows/ # Terraform CI/CD
-
+............
 
 ## Branching Model
 - `main` → Protected, requires PR
