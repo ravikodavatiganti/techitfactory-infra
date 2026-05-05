@@ -1,9 +1,18 @@
+
 # TechIT Factory - Infrastructure
 
 Terraform code for AWS infrastructure.
 
-## Structure
-├── bootstrap/ # S3 state, DynamoDB lock, KMS ├── modules/ │ ├── vpc/ # VPC, subnets, NAT │ └── eks/ # EKS cluster, node groups ├── environments/ │ ├── dev/ # Dev environment │ └── prod/ # Prod environment └── .github/workflows/ # Terraform CI/CD
+## Structure  # updated readme file
+
+├── bootstrap/ # S3 state, DynamoDB lock, KMS 
+├── modules/ │ 
+├── vpc/ # VPC, subnets, NAT 
+│ └── eks/ # EKS cluster, node groups 
+├── environments/ 
+│ ├── dev/ # Dev environment 
+│ └── prod/ # Prod environment 
+└── .github/workflows/ # Terraform CI/CD
 
 
 ## Branching Model
