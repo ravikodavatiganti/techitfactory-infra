@@ -4,7 +4,7 @@
 Terraform code for AWS infrastructure.
 
 ## Structure  # updated readme file
-..........
+.............
 ├── bootstrap/ # S3 state, DynamoDB lock, KMS 
 ├── modules/ │ 
 ├── vpc/ # VPC, subnets, NAT 
