@@ -1,0 +1,6 @@
+# Infrastructure team owns everything
+* @YOUR_GITHUB_ORG/infra-team
+
+# Security review for IAM changes
+modules/*/iam*.tf @YOUR_GITHUB_ORG/security-team
+bootstrap/ @YOUR_GITHUB_ORG/security-team
