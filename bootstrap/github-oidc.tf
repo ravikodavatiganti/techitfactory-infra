@@ -80,9 +80,9 @@ resource "aws_iam_role" "github_actions_terraform" {
           # The :* at the end allows any branch/ref
           StringLike = {
             "token.actions.githubusercontent.com:sub" = [
-              "repo:YOUR_GITHUB_ORG/techitfactory-infra:*",
-              "repo:YOUR_GITHUB_ORG/techitfactory-app:*",
-              "repo:YOUR_GITHUB_ORG/techitfactory-gitops:*"
+              "repo:ravikodavatiganti/techitfactory-infra:*",
+              "repo:ravikodavatiganti/techitfactory-app:*",
+              "repo:ravikodavatiganti/techitfactory-gitops:*"
             ]
           }
         }
@@ -259,7 +259,7 @@ resource "aws_iam_role_policy" "github_actions_terraform" {
           "ecr:DescribeImages",
           "ecr:ListImages"
         ]
-        Resource = "arn:aws:ecr:ap-south-1:YOUR_AWS_ACCOUNT_ID:repository/techitfactory/*"
+        Resource = "arn:aws:ecr:ap-south-1:707688585765:repository/techitfactory/*"
       },
       # -----------------------------------------------------------------
       # ROUTE53 & ACM PERMISSIONS
