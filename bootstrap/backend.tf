@@ -22,7 +22,7 @@
 
 terraform {
   backend "s3" {
-    bucket = "techitfactory-tfstate-21217575"
+    bucket = "techitfactory-tfstate-8eab2b08"
     key    = "bootstrap/terraform.tfstate"
     region = "us-east-1"
     # SSE-S3 (not KMS) — the KMS key doesn't exist yet when this backend is initialized
