@@ -8,7 +8,7 @@ terraform {
   # backend "s3" {
   #   bucket         = "<from-bootstrap>"
   #   key            = "environments/dev/terraform.tfstate"
-  #   region         = "ap-south-1"
+  #   region         = "us-east-1"
   #   encrypt        = true
   #   dynamodb_table = "<from-bootstrap>"
   # }
@@ -22,7 +22,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "ap-south-1"
+  region = "us-east-1"
 
   default_tags {
     tags = {
