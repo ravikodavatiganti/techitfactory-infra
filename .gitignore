@@ -1,10 +1,10 @@
 # Terraform
-.terraform/
+**/.terraform/*
 *.tfstate
 *.tfstate.*
 crash.log
 
-# Terraform variable files
+# Terraform vars
 *.tfvars
 *.tfvars.json
 
