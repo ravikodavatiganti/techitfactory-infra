@@ -85,7 +85,7 @@ module "vpc" {
 # =============================================================================
 # EKS MODULE (Story 4.1) ✅
 # =============================================================================
-
+/*
 module "eks" {
   source = "../../modules/eks"
 
@@ -130,6 +130,7 @@ module "ecr" {
     "cart-service"
   ]
 
-  lifecycle_policy_count = 30
+  lifecycle_policy_count = 30 
+*/
   scan_on_push           = true
 }
