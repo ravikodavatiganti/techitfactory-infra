@@ -131,6 +131,6 @@ module "ecr" {
   ]
 
   lifecycle_policy_count = 30 
-*/
   scan_on_push           = true
 }
+*/
